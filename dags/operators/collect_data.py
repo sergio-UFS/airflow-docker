@@ -13,11 +13,8 @@ class Collect_data_operator():
     def __init__(self):
         pass
 
-    def collect_daily_spotify():
-        print("Collecting daily Spotify data...")
-
     def data_steam_games():
-        df_jogos_app = pd.read_csv('../data/jogos_app.csv')
+        df_jogos_app = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/jogos_app.csv')
         with open('../data/offset.json', 'r') as f:
             offset = json.load(f)
             f.close()

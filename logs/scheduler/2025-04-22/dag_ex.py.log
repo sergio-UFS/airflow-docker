@@ -1885,3 +1885,122 @@ ModuleNotFoundError: No module named 'utils'
 [2025-04-22T17:46:21.065+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:46:21.065+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-04-22T17:46:21.109+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:46:21.108+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
 [2025-04-22T17:46:21.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.970 seconds
+[2025-04-22T17:46:51.410+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:46:51.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:46:51.414+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:46:51.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:46:52.015+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:46:52.039+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:46:52.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:46:52.062+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:46:52.062+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:46:52.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.676 seconds
+[2025-04-22T17:47:22.324+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:22.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:47:22.328+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:22.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:22.963+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:22.991+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:22.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:47:23.020+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:23.020+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:47:23.045+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.726 seconds
+[2025-04-22T17:47:53.109+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:53.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:47:53.112+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:53.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:53.742+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:47:53.774+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:53.774+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:47:53.803+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:47:53.803+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:47:53.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.739 seconds
+[2025-04-22T17:48:24.080+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:24.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:48:24.084+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:24.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:24.700+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:24.724+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:24.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:48:24.752+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:24.752+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:48:24.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.701 seconds
+[2025-04-22T17:48:55.176+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:55.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:48:55.180+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:55.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:55.775+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:48:55.803+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:55.802+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:48:55.833+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:48:55.833+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:48:55.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.691 seconds
+[2025-04-22T17:49:26.100+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:26.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:49:26.104+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:26.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:26.917+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:26.953+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:26.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:49:26.987+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:26.987+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:49:27.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.921 seconds
+[2025-04-22T17:49:57.089+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:57.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:49:57.092+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:57.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:57.714+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:49:57.744+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:57.744+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:49:57.773+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:49:57.773+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:49:57.803+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.720 seconds
+[2025-04-22T17:50:28.074+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:28.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:50:28.078+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:28.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:28.733+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:28.760+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:28.759+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:50:28.790+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:28.790+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:50:28.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.746 seconds
+[2025-04-22T17:50:59.129+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:59.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:50:59.132+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:59.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:59.756+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:50:59.783+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:59.783+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:50:59.811+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:50:59.811+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:50:59.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.714 seconds
+[2025-04-22T17:51:29.895+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:51:29.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:51:29.899+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:51:29.898+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:51:30.525+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:51:30.557+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:51:30.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:51:30.592+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:51:30.592+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:51:30.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.733 seconds
+[2025-04-22T17:52:00.872+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:00.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:52:00.876+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:00.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:01.593+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:01.623+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:01.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:52:01.660+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:01.660+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:52:01.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.824 seconds
+[2025-04-22T17:52:31.944+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:31.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:52:31.950+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:31.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:32.595+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:52:32.629+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:32.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:52:32.661+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:52:32.660+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:52:32.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.756 seconds
+[2025-04-22T17:53:02.938+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:02.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:53:02.942+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:02.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:03.573+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:03.604+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:03.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:53:03.631+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:03.630+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:53:03.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.721 seconds
+[2025-04-22T17:53:33.909+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:33.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:53:33.913+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:33.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:34.720+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:53:34.751+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:34.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:53:34.778+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:53:34.777+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:53:34.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.901 seconds
+[2025-04-22T17:54:05.060+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:05.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:54:05.066+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:05.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:05.759+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:05.786+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:05.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:54:05.816+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:05.815+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:54:05.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.789 seconds
+[2025-04-22T17:54:36.092+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:36.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:54:36.097+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:36.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:36.822+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:54:36.856+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:36.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:54:36.903+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:54:36.903+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:54:36.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.849 seconds
+[2025-04-22T17:55:07.207+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:55:07.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T17:55:07.211+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:55:07.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:55:07.829+0000] {processor.py:925} INFO - DAG(s) 'dag_steam_games' retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T17:55:07.856+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:55:07.855+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-22T17:55:07.881+0000] {logging_mixin.py:190} INFO - [2025-04-22T17:55:07.880+0000] {dag.py:4180} INFO - Setting next_dagrun for dag_steam_games to 2025-04-21 00:00:00+00:00, run_after=2025-04-22 00:00:00+00:00
+[2025-04-22T17:55:07.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.704 seconds
