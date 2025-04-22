@@ -1,0 +1,1648 @@
+[2025-04-22T15:03:08.965+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:08.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:03:08.969+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:03:08.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:09.624+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:03:09.617+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:03:09.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:09.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.685 seconds
+[2025-04-22T15:03:39.848+0000] {processor.py:186} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:39.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:03:39.852+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:03:39.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:40.340+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:03:40.335+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:03:40.342+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:03:40.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.519 seconds
+[2025-04-22T15:04:10.559+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:10.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:04:10.562+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:04:10.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:11.059+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:04:11.054+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:04:11.061+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:11.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.524 seconds
+[2025-04-22T15:04:41.274+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:41.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:04:41.277+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:04:41.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:41.779+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:04:41.773+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:04:41.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:04:41.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.526 seconds
+[2025-04-22T15:05:11.910+0000] {processor.py:186} INFO - Started process (PID=48) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:11.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:05:11.914+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:05:11.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:12.400+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:05:12.394+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:05:12.402+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:12.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.516 seconds
+[2025-04-22T15:05:42.620+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:42.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:05:42.623+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:05:42.623+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:43.093+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:05:43.088+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:05:43.095+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:05:43.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.496 seconds
+[2025-04-22T15:06:13.317+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:13.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:06:13.320+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:06:13.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:13.813+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:06:13.807+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:06:13.815+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:13.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.522 seconds
+[2025-04-22T15:06:43.961+0000] {processor.py:186} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:43.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:06:43.963+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:06:43.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:44.442+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:06:44.437+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:06:44.444+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:06:44.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.505 seconds
+[2025-04-22T15:07:14.665+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:14.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:07:14.668+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:07:14.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:15.155+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:07:15.149+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:07:15.157+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:15.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.517 seconds
+[2025-04-22T15:07:45.378+0000] {processor.py:186} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:45.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:07:45.382+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:07:45.381+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:46.082+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:07:46.076+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:07:46.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:07:46.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.729 seconds
+[2025-04-22T15:08:16.432+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:16.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:08:16.437+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:08:16.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:16.925+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:08:16.918+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:08:16.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:16.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.520 seconds
+[2025-04-22T15:08:47.156+0000] {processor.py:186} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:47.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:08:47.160+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:08:47.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:47.642+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:08:47.635+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:08:47.645+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:08:47.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.509 seconds
+[2025-04-22T15:09:17.873+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:17.874+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:09:17.876+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:09:17.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:18.363+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:09:18.357+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:09:18.366+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:18.385+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.518 seconds
+[2025-04-22T15:09:48.523+0000] {processor.py:186} INFO - Started process (PID=66) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:48.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:09:48.527+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:09:48.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:49.039+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:09:49.032+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:09:49.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:09:49.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.543 seconds
+[2025-04-22T15:10:19.269+0000] {processor.py:186} INFO - Started process (PID=68) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:19.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:10:19.272+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:10:19.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:19.761+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:10:19.755+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:10:19.764+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:19.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.520 seconds
+[2025-04-22T15:10:49.933+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:49.934+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:10:49.935+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:10:49.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:50.430+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:10:50.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:10:50.432+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:10:50.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.522 seconds
+[2025-04-22T15:11:20.670+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:20.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:11:20.672+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:11:20.672+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:21.186+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:11:21.180+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:11:21.188+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:21.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.542 seconds
+[2025-04-22T15:11:51.336+0000] {processor.py:186} INFO - Started process (PID=74) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:51.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:11:51.339+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:11:51.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:51.803+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:11:51.797+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:11:51.805+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:11:51.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.494 seconds
+[2025-04-22T15:12:22.026+0000] {processor.py:186} INFO - Started process (PID=76) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:22.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:12:22.029+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:12:22.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:22.489+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:12:22.483+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:12:22.491+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:22.514+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.493 seconds
+[2025-04-22T15:12:52.716+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:52.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:12:52.719+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:12:52.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:53.216+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:12:53.210+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:12:53.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:12:53.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.522 seconds
+[2025-04-22T15:13:23.485+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:23.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:13:23.488+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:13:23.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:23.951+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:13:23.945+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:13:23.953+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:23.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.493 seconds
+[2025-04-22T15:13:54.194+0000] {processor.py:186} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:54.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:13:54.197+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:13:54.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:54.658+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:13:54.652+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:13:54.660+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:13:54.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.491 seconds
+[2025-04-22T15:14:24.862+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:24.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:14:24.864+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:14:24.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:25.350+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:14:25.344+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:14:25.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:25.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.515 seconds
+[2025-04-22T15:14:55.593+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:55.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:14:55.597+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:14:55.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:56.109+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:14:56.103+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:14:56.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:14:56.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.539 seconds
+[2025-04-22T15:15:26.220+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:26.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:15:26.224+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:15:26.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:26.695+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:15:26.689+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:15:26.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:26.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.501 seconds
+[2025-04-22T15:15:56.921+0000] {processor.py:186} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:56.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:15:56.924+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:15:56.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:57.435+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:15:57.428+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:15:57.437+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:15:57.452+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.536 seconds
+[2025-04-22T15:16:27.737+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:27.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:16:27.744+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:16:27.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:28.318+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:16:28.311+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:16:28.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:28.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.611 seconds
+[2025-04-22T15:16:58.538+0000] {processor.py:186} INFO - Started process (PID=94) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:58.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:16:58.541+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:16:58.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:59.051+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:16:59.045+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:16:59.053+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:16:59.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.540 seconds
+[2025-04-22T15:17:29.289+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:17:29.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:17:29.292+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:17:29.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:17:29.779+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:17:29.771+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:17:29.781+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:17:29.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.513 seconds
+[2025-04-22T15:17:59.912+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:17:59.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:17:59.915+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:17:59.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:18:00.399+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:18:00.394+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:18:00.402+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:18:00.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.517 seconds
+[2025-04-22T15:18:30.780+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:18:30.782+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:18:30.784+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:18:30.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:18:31.793+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:18:31.783+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:18:31.797+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:18:31.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 1.048 seconds
+[2025-04-22T15:19:02.006+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:02.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:19:02.010+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:19:02.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:02.543+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:19:02.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:19:02.545+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:02.568+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.567 seconds
+[2025-04-22T15:19:32.782+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:32.784+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:19:32.786+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:19:32.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:33.269+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:19:33.263+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:19:33.272+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:19:33.293+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.516 seconds
+[2025-04-22T15:20:03.422+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:03.423+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:20:03.425+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:20:03.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:04.128+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:20:04.119+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:20:04.131+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:04.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.741 seconds
+[2025-04-22T15:20:34.395+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:34.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:20:34.398+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:20:34.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:34.947+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:20:34.941+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:20:34.949+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:20:34.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.577 seconds
+[2025-04-22T15:21:05.181+0000] {processor.py:186} INFO - Started process (PID=110) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:05.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:21:05.184+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:21:05.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:05.694+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:21:05.686+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:21:05.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:05.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.541 seconds
+[2025-04-22T15:21:35.931+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:35.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:21:35.934+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:21:35.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:36.429+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:21:36.423+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:21:36.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:21:36.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.524 seconds
+[2025-04-22T15:22:06.539+0000] {processor.py:186} INFO - Started process (PID=114) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:06.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:22:06.542+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:22:06.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:07.027+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:22:07.021+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:22:07.029+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:07.048+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.516 seconds
+[2025-04-22T15:22:37.259+0000] {processor.py:186} INFO - Started process (PID=116) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:37.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:22:37.264+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:22:37.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:37.764+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:22:37.758+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:22:37.766+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:22:37.786+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.533 seconds
+[2025-04-22T15:23:08.012+0000] {processor.py:186} INFO - Started process (PID=118) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:08.013+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:23:08.015+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:23:08.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:08.501+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:23:08.495+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:23:08.503+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:08.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.516 seconds
+[2025-04-22T15:23:38.840+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:38.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:23:38.843+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:23:38.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:39.360+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:23:39.353+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:23:39.363+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:23:39.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.544 seconds
+[2025-04-22T15:24:09.578+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:09.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:24:09.581+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:24:09.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:10.187+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:24:10.180+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:24:10.190+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:10.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.638 seconds
+[2025-04-22T15:24:40.441+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:40.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:24:40.445+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:24:40.445+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:40.948+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:24:40.943+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:24:40.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:24:40.966+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.530 seconds
+[2025-04-22T15:25:11.167+0000] {processor.py:186} INFO - Started process (PID=126) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:11.168+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:25:11.170+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:25:11.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:11.706+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:25:11.700+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:25:11.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:11.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.563 seconds
+[2025-04-22T15:25:41.974+0000] {processor.py:186} INFO - Started process (PID=128) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:41.975+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:25:41.978+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:25:41.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:42.565+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:25:42.558+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:25:42.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:25:42.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.615 seconds
+[2025-04-22T15:26:12.798+0000] {processor.py:186} INFO - Started process (PID=130) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:12.800+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:26:12.804+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:26:12.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:13.295+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:26:13.289+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:26:13.297+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:13.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.524 seconds
+[2025-04-22T15:26:43.528+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:43.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:26:43.531+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:26:43.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:44.038+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:26:44.033+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:26:44.041+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:26:44.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.538 seconds
+[2025-04-22T15:27:14.157+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:14.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:27:14.160+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:27:14.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:14.677+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:27:14.670+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:27:14.679+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:14.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.546 seconds
+[2025-04-22T15:27:44.908+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:44.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:27:44.912+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:27:44.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:45.471+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:27:45.465+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:27:45.473+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:27:45.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.587 seconds
+[2025-04-22T15:28:15.602+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:15.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:28:15.608+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:28:15.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:16.133+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:28:16.127+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:28:16.136+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:16.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.559 seconds
+[2025-04-22T15:28:46.356+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:46.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:28:46.359+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:28:46.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:46.878+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:28:46.873+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:28:46.880+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:28:46.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.547 seconds
+[2025-04-22T15:29:17.108+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:17.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:29:17.112+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:29:17.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:17.622+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:29:17.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:29:17.624+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:17.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.536 seconds
+[2025-04-22T15:29:47.697+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:47.698+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:29:47.700+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:29:47.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:48.191+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:29:48.185+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:29:48.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:29:48.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.520 seconds
+[2025-04-22T15:30:18.412+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:18.413+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:30:18.415+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:30:18.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:18.897+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:30:18.891+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:30:18.899+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:18.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.530 seconds
+[2025-04-22T15:30:49.157+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:49.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:30:49.160+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:30:49.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:49.694+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:30:49.687+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:30:49.696+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:30:49.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.562 seconds
+[2025-04-22T15:31:19.913+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:19.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:31:19.916+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:31:19.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:20.412+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:31:20.406+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:31:20.414+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:20.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.525 seconds
+[2025-04-22T15:31:50.642+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:50.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:31:50.645+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:31:50.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:51.101+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:31:51.094+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:31:51.103+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:31:51.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.482 seconds
+[2025-04-22T15:32:21.268+0000] {processor.py:186} INFO - Started process (PID=154) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:21.269+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:32:21.271+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:32:21.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:21.756+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:32:21.750+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:32:21.759+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:21.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.515 seconds
+[2025-04-22T15:32:51.986+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:51.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:32:51.989+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:32:51.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:52.485+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:32:52.479+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:32:52.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:32:52.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.523 seconds
+[2025-04-22T15:33:22.788+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:22.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:33:22.791+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:33:22.791+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:23.274+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:33:23.267+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:33:23.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:23.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.514 seconds
+[2025-04-22T15:33:53.507+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:53.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:33:53.510+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:33:53.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:54.004+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:33:53.997+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:33:54.006+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:33:54.023+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.523 seconds
+[2025-04-22T15:34:24.156+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:24.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:34:24.159+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:34:24.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:24.669+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:34:24.662+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:34:24.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:24.694+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.545 seconds
+[2025-04-22T15:34:54.908+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:54.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:34:54.911+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:34:54.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:55.391+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:34:55.385+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:34:55.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:34:55.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.511 seconds
+[2025-04-22T15:35:25.576+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:25.577+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:35:25.580+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:35:25.579+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:26.045+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:35:26.038+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:35:26.047+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:26.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.501 seconds
+[2025-04-22T15:35:56.286+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:56.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:35:56.290+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:35:56.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:56.792+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:35:56.786+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:35:56.794+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:35:56.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.534 seconds
+[2025-04-22T15:36:26.962+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:26.963+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:36:26.966+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:36:26.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:27.466+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:36:27.459+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:36:27.468+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:27.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.540 seconds
+[2025-04-22T15:36:57.717+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:57.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:36:57.720+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:36:57.720+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:58.247+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:36:58.238+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:36:58.249+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:36:58.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.559 seconds
+[2025-04-22T15:37:28.379+0000] {processor.py:186} INFO - Started process (PID=174) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:28.380+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:37:28.383+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:37:28.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:28.863+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:37:28.856+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:37:28.865+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:28.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.514 seconds
+[2025-04-22T15:37:59.121+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:59.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:37:59.124+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:37:59.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:59.612+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:37:59.605+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:37:59.615+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:37:59.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.519 seconds
+[2025-04-22T15:38:29.942+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:38:29.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:38:29.945+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:38:29.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:38:30.541+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:38:30.534+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:38:30.543+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:38:30.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.648 seconds
+[2025-04-22T15:39:00.801+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:00.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:39:00.804+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:39:00.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:01.341+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:39:01.334+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:39:01.343+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:01.363+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.568 seconds
+[2025-04-22T15:39:31.563+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:31.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:39:31.566+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:39:31.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:32.072+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:39:32.066+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:39:32.075+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:39:32.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.534 seconds
+[2025-04-22T15:40:02.301+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:02.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:40:02.305+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:40:02.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:02.778+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:40:02.772+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:40:02.780+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:02.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.507 seconds
+[2025-04-22T15:40:32.930+0000] {processor.py:186} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:32.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:40:32.933+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:40:32.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:33.411+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:40:33.405+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:40:33.413+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:40:33.430+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.506 seconds
+[2025-04-22T15:41:03.637+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:03.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:41:03.640+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:41:03.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:04.109+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:41:04.102+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:41:04.111+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:04.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.502 seconds
+[2025-04-22T15:41:34.355+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:34.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:41:34.358+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:41:34.358+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:34.848+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:41:34.842+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:41:34.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:41:34.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.520 seconds
+[2025-04-22T15:42:05.078+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:05.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:42:05.081+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:42:05.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:05.562+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:42:05.555+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:42:05.564+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:05.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.507 seconds
+[2025-04-22T15:42:35.732+0000] {processor.py:186} INFO - Started process (PID=194) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:35.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:42:35.734+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:42:35.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:36.209+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:42:36.203+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:42:36.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:42:36.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.505 seconds
+[2025-04-22T15:43:06.439+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:06.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:43:06.444+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:43:06.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:06.939+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:43:06.932+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:43:06.942+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:06.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.524 seconds
+[2025-04-22T15:43:37.248+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:37.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:43:37.251+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:43:37.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:37.833+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:43:37.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:43:37.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:43:37.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.613 seconds
+[2025-04-22T15:44:08.080+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:08.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:44:08.083+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:44:08.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:08.568+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:44:08.561+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:44:08.570+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:08.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.512 seconds
+[2025-04-22T15:44:38.637+0000] {processor.py:186} INFO - Started process (PID=202) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:38.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:44:38.640+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:44:38.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:39.150+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:44:39.144+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:44:39.152+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:44:39.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.542 seconds
+[2025-04-22T15:45:09.388+0000] {processor.py:186} INFO - Started process (PID=204) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:09.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:45:09.391+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:45:09.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:09.899+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:45:09.892+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:45:09.901+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:09.917+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.535 seconds
+[2025-04-22T15:45:40.184+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:40.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:45:40.187+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:45:40.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:40.856+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:45:40.759+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:45:40.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:45:40.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.766 seconds
+[2025-04-22T15:46:11.191+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:11.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:46:11.195+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:46:11.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:11.727+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:46:11.720+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:46:11.730+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:11.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.566 seconds
+[2025-04-22T15:46:41.981+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:41.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:46:41.985+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:46:41.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:42.605+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:46:42.597+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:46:42.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:46:42.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.649 seconds
+[2025-04-22T15:47:12.870+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:12.872+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:47:12.874+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:47:12.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:13.460+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:47:13.451+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:47:13.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:13.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.619 seconds
+[2025-04-22T15:47:43.736+0000] {processor.py:186} INFO - Started process (PID=214) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:43.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:47:43.740+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:47:43.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:44.297+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:47:44.290+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:47:44.300+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:47:44.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.591 seconds
+[2025-04-22T15:48:14.683+0000] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:14.684+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:48:14.686+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:48:14.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:15.197+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:48:15.190+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:48:15.199+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:15.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.536 seconds
+[2025-04-22T15:48:45.444+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:45.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:48:45.448+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:48:45.448+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:46.018+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:48:46.011+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:48:46.020+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:48:46.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.604 seconds
+[2025-04-22T15:49:16.311+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:16.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:49:16.315+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:49:16.314+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:17.131+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:49:17.124+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:49:17.135+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:17.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.854 seconds
+[2025-04-22T15:49:47.424+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:47.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:49:47.428+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:49:47.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:48.010+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:49:48.001+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:49:48.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:49:48.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.615 seconds
+[2025-04-22T15:50:18.273+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:18.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:50:18.277+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:50:18.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:19.057+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:50:19.048+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:50:19.062+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:19.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.819 seconds
+[2025-04-22T15:50:49.296+0000] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:49.297+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:50:49.299+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:50:49.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:49.880+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:50:49.873+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:50:49.883+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:50:49.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.612 seconds
+[2025-04-22T15:51:20.150+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:20.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:51:20.154+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:51:20.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:20.743+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:51:20.737+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:51:20.746+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:20.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.624 seconds
+[2025-04-22T15:51:51.002+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:51.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:51:51.005+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:51:51.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:51.588+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:51:51.581+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:51:51.591+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:51:51.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.614 seconds
+[2025-04-22T15:52:21.855+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:21.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:52:21.858+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:52:21.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:22.436+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:52:22.428+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:52:22.439+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:22.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.614 seconds
+[2025-04-22T15:52:52.710+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:52.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:52:52.715+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:52:52.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:53.407+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:52:53.399+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:52:53.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:52:53.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.730 seconds
+[2025-04-22T15:53:23.599+0000] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:23.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:53:23.603+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:53:23.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:24.161+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:53:24.153+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:53:24.163+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:24.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.591 seconds
+[2025-04-22T15:53:54.433+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:54.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:53:54.437+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:53:54.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:54.983+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:53:54.977+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:53:54.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:53:55.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.576 seconds
+[2025-04-22T15:54:25.311+0000] {processor.py:186} INFO - Started process (PID=240) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:25.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:54:25.317+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:54:25.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:26.143+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:54:26.135+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:54:26.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:26.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.864 seconds
+[2025-04-22T15:54:56.460+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:56.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:54:56.465+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:54:56.464+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:57.225+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:54:57.216+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:54:57.229+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:54:57.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.798 seconds
+[2025-04-22T15:55:27.540+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:55:27.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_ex.py for tasks to queue
+[2025-04-22T15:55:27.549+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:55:27.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:55:28.267+0000] {logging_mixin.py:190} INFO - [2025-04-22T15:55:28.260+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_ex.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ex.py", line 5, in <module>
+    from operators.collect_data import Collect_data_operator
+  File "/opt/airflow/dags/operators/collect_data.py", line 6, in <module>
+    from utils.utils import Utils
+ModuleNotFoundError: No module named 'utils'
+[2025-04-22T15:55:28.271+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ex.py
+[2025-04-22T15:55:28.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_ex.py took 0.765 seconds
