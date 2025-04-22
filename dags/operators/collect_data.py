@@ -1,7 +1,7 @@
 import requests
 import datetime
 from dotenv import load_dotenv
-import adjustingdetails as adj
+from . import adjustingdetails as adj
 import os
 import pandas as pd
 import json
