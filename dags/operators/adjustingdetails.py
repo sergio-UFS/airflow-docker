@@ -9,7 +9,7 @@ import numpy as np
 def formatting_details(game):
     try:
             new_game = {}
-            game_ids = pd.read_csv("../data/jogos_app.csv")
+            game_ids = pd.read_csv("/home/sergiomanhaesmfilho/airflow/dags/data/jogos_app.csv")
             new_game["steam_appid"] = int(game["steam_appid"])
             new_game["name"] = game["name"]
             new_game["is_free"] = bool(game["is_free"])
@@ -125,6 +125,6 @@ def get_review_summary(steam_id):
             return game['query_summary']
 
 def remover_duplicatas():
-    game_ids = pd.read_csv("../data/jogos_app.csv")
+    game_ids = pd.read_csv("/home/sergiomanhaesmfilho/airflow/dags/data/jogos_app.csv")
     game_ids = game_ids.drop_duplicates(subset="appid")
-    game_ids.to_csv("../data/jogos_app.csv", index=False)
+    game_ids.to_csv("/home/sergiomanhaesmfilho/airflow/dags/data/jogos_app.csv", index=False)
