@@ -15,12 +15,12 @@ class Collect_data_operator():
 
     def data_steam_games():
         df_jogos_app = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/jogos_app.csv')
-        with open('../data/offset.json', 'r') as f:
+        with open('/home/sergiomanhaesmfilho/airflow/dags/data/offset.json', 'r') as f:
             offset = json.load(f)
             f.close()
 
-        df_registrados = pd.read_csv('../data/steam_games.csv')
-        df_naojogos = pd.read_csv('../data/steam_add_content.csv')
+        df_registrados = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/steam_games.csv')
+        df_naojogos = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/steam_add_content.csv')
 
         df_jogos_app = df_jogos_app.dropna()
         df_jogos_app = df_jogos_app[~df_jogos_app['appid'].isin(df_registrados['steam_appid'])]
@@ -44,7 +44,7 @@ class Collect_data_operator():
         games = []
         aditional_content = []
 
-        num_offset = pd.read_csv('../data/steam_games.csv')
+        num_offset = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/steam_games.csv')
 
         num_offset = len(num_offset)
         i = offset['offset']
@@ -73,14 +73,14 @@ class Collect_data_operator():
             games = [game for game in games if not game['name'].endswith('Test')]
 
             df_games = games
-            df = pd.read_csv('../data/steam_games.csv')
+            df = pd.read_csv('/home/sergiomanhaesmfilho/airflow/dags/data/steam_games.csv')
             df_games = pd.DataFrame(df_games)
             df = pd.concat([df, df_games], ignore_index=True)
-            df.to_csv('../data/steam_games.csv', index=False)
+            df.to_csv('/home/sergiomanhaesmfilho/airflow/dags/data/steam_games.csv', index=False)
 
 
             offset['offset'] += 30
-            with open('../data/offset.json', 'w') as f:
+            with open('/home/sergiomanhaesmfilho/airflow/dags/data/offset.json', 'w') as f:
                 json.dump(offset, f)
                 f.close()
 
